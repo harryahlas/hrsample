@@ -1,9 +1,11 @@
 Package: hrsample
-Title: What the Package Does (one line, title case)
-Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Title: A Sample Human Resources Database for Educational Purposes
+Version: 0.0.0.1000
+Authors@R: person("Harry", "Ahlas", email = "hahlas@hotmail.com", role = c("aut", "cre"))
+Description: The hrsample database is a series of six tables of human resources data for an imaginary company. The database's fully reproducible code is available at https://github.com/harryahlas/sample-hr-database/.  Please note the data will change in future versions.
 Depends: R (>= 3.4.4)
-License: What license is it under?
+License: MIT + file LICENSE
+URL: https://github.com/harryahlas/hrsample 
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 6.1.0.9000
