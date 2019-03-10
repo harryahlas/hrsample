@@ -8,7 +8,7 @@
 \describe{
   \item{\code{employee_num}}{integer COLUMN_DESCRIPTION}
   \item{\code{year}}{integer COLUMN_DESCRIPTION}
-  \item{\code{perf_review}}{integer COLUMN_DESCRIPTION}
+  \item{\code{perf_review_score}}{integer COLUMN_DESCRIPTION}
 }}
 \source{
 \url{https://github.com/harryahlas/hrsample/}
