@@ -1,6 +1,6 @@
 Package: hrsample
 Title: A Sample Human Resources Database for Educational Purposes
-Version: 0.0.0.2000
+Version: 0.0.0.2001
 Authors@R: person("Harry", "Ahlas", email = "hahlas@hotmail.com", role = c("aut", "cre"))
 Description: The hrsample database is a series of six tables of human resources data for an imaginary company. The database's fully reproducible code is available at https://github.com/harryahlas/sample-hr-database/.  Please note the data will change in future versions.  Current tables include employeeinfo_table, deskhistory_table, deskjob_table, hierarchy_table, performancereview_table, and salaryhistory_table.  See R/data.R for more information.  May refer to http://harry.ahlas.com for tutorials.
 Depends: R (>= 3.4.4)
