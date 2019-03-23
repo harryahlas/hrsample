@@ -21,6 +21,6 @@ hrsampleCreateSQLite <- function(db_location) {
   dbWriteTable(con, "performancereview", performancereview_table)
   dbWriteTable(con, "salaryhistory", salaryhistory_table)
 
-  dbListTables(con)
+  print(dbListTables(con))
   dbDisconnect(con)
 }
