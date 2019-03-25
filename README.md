@@ -27,7 +27,7 @@ devtools::install_github("harryahlas/hrsample")
 
 ## Loading hrsample to Other Databases
 
-R can load hrsample into other databases as well.  At this time, these functions will load the data only, i.e. no keys, referential integrity etc.  These functions may require additional package installations such as DBI, RSQLite, RMySQL, RPostgreSQL.
+R can load hrsample into other databases as well.  At this time, these functions will load the data only, i.e. no keys, referential integrity etc.  These functions may require additional package installations such as DBI, RSQLite, RMySQL, RPostgreSQL, and SQL Server.
 ```R
 # Loads the 6 tables into a SQLite database on a C drive.
 hrsampleCreateSQLite("C:\\sqlite\\my_db.sqlite3")
@@ -43,5 +43,12 @@ hrsampleCreatePostgreSQL(dbname = "hrsample",
                          host = "localhost",
                          user = "yourusername",
                          password = "yourpassword")
+
+# Loads the 6 tables into a local SQL Server database.
+hrsampleCreateSQLServer(driver = "ODBC Driver 13 for SQL Server", 
+						dbname = "master",
+						server = "localhost\\SQLEXPRESS", 
+						user= "newuser", 
+						password = "newuser")
 ```
 
