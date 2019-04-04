@@ -46,9 +46,9 @@ hrsampleCreatePostgreSQL(dbname = "hrsample",
 
 # Loads the 6 tables into a local SQL Server database.
 hrsampleCreateSQLServer(driver = "ODBC Driver 13 for SQL Server", 
-						dbname = "master",
-						server = "localhost\\SQLEXPRESS", 
-						user= "newuser", 
-						password = "newuser")
+			dbname = "master",
+			server = "localhost\\SQLEXPRESS", 
+			user= "newuser", 
+			password = "newuser")
 ```
 
