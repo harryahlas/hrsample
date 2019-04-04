@@ -14,7 +14,7 @@ These 6 tables are loaded into R when this library is called:
 
 This is an evolving database.  Expect that data will change with time.
 
-Refer to https://github.com/harryahlas/sample-hr-database to see how this was built.
+Refer to https://github.com/harryahlas/sample-hr-database to see summary data graphics as well as information about how this data was created.
 
 Refer to http://harry.ahlas.com/ for exercises related to this package.
 
