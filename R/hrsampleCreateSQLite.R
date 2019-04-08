@@ -14,12 +14,12 @@ hrsampleCreateSQLite <- function(db_location) {
   sqlite <- dbDriver("SQLite")
 
   con <- dbConnect(sqlite, db_location)
-  dbWriteTable(con, "employeeinfo", employeeinfo_table)
-  dbWriteTable(con, "deskhistory", deskhistory_table)
-  dbWriteTable(con, "deskjob", deskjob_table)
-  dbWriteTable(con, "hierarchy", hierarchy_table)
-  dbWriteTable(con, "performancereview", performancereview_table)
-  dbWriteTable(con, "salaryhistory", salaryhistory_table)
+  dbWriteTable(con, "employeeinfo", employeeinfo_table, overwrite = TRUE)
+  dbWriteTable(con, "deskhistory", deskhistory_table, overwrite = TRUE)
+  dbWriteTable(con, "deskjob", deskjob_table, overwrite = TRUE)
+  dbWriteTable(con, "hierarchy", hierarchy_table, overwrite = TRUE)
+  dbWriteTable(con, "performancereview", performancereview_table, overwrite = TRUE)
+  dbWriteTable(con, "salaryhistory", salaryhistory_table, overwrite = TRUE)
 
   print(dbListTables(con))
   dbDisconnect(con)
