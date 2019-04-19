@@ -11,6 +11,7 @@ These 6 tables are loaded into R when this library is called:
 - hierarchy_table - a rollup that shows which position reports to which
 - performancereview_table - a history of employee performance review scores
 - salaryhistory_table - a history of employee salaries
+- recruiting_table - recruiting sources for employees
 
 This is an evolving database.  Expect that data will change with time.
 
