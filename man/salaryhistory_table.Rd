@@ -14,11 +14,17 @@
 }}
 \source{
 \url{https://github.com/harryahlas/hrsample/}
+
+\url{http://somewhere.important.com/}
 }
 \usage{
+salaryhistory_table
+
 salaryhistory_table
 }
 \description{
 Salary history at fictitional company.
+
+DATASET_DESCRIPTION
 }
 \keyword{datasets}

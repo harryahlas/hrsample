@@ -4,6 +4,7 @@ load("data-raw/deskjob_table.rda")
 load("data-raw/hierarchy_table.rda")
 load("data-raw/performancereview_table.rda")
 load("data-raw/salaryhistory_table.rda")
+load("data-raw/recruiting_table.rda")
 
 devtools::use_data(employeeinfo_table,
                    deskhistory_table,
@@ -11,4 +12,5 @@ devtools::use_data(employeeinfo_table,
                    hierarchy_table,
                    performancereview_table,
                    salaryhistory_table,
+                   recruiting_table,
                    overwrite = T)

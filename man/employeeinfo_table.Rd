@@ -15,11 +15,17 @@
 }}
 \source{
 \url{https://github.com/harryahlas/hrsample/}
+
+\url{http://somewhere.important.com/}
 }
 \usage{
+employeeinfo_table
+
 employeeinfo_table
 }
 \description{
 Fictional information about current, former, and potential company employees
+
+DATASET_DESCRIPTION
 }
 \keyword{datasets}

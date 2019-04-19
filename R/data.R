@@ -70,3 +70,78 @@
 #'}
 #' @source \url{https://github.com/harryahlas/hrsample/}
 "salaryhistory_table"
+#' @title DATASET_TITLE
+#' @description DATASET_DESCRIPTION
+#' @format A data frame with 4509 rows and 5 variables:
+#' \describe{
+#'   \item{\code{employee_num}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{first_name}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{last_name}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{city}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{state}}{character COLUMN_DESCRIPTION} 
+#'}
+#' @source \url{http://somewhere.important.com/}
+"employeeinfo_table"
+#' @title DATASET_TITLE
+#' @description DATASET_DESCRIPTION
+#' @format A data frame with 10360 rows and 6 variables:
+#' \describe{
+#'   \item{\code{employee_num}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{desk_id}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{desk_id_start_date}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{desk_id_end_date}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{termination_flag}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{promotion_flag}}{integer COLUMN_DESCRIPTION} 
+#'}
+#' @source \url{http://somewhere.important.com/}
+"deskhistory_table"
+#' @title DATASET_TITLE
+#' @description DATASET_DESCRIPTION
+#' @format A data frame with 1233 rows and 2 variables:
+#' \describe{
+#'   \item{\code{desk_id}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{job_name}}{character COLUMN_DESCRIPTION} 
+#'}
+#' @source \url{http://somewhere.important.com/}
+"deskjob_table"
+#' @title DATASET_TITLE
+#' @description DATASET_DESCRIPTION
+#' @format A data frame with 1233 rows and 3 variables:
+#' \describe{
+#'   \item{\code{desk_id}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{org}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{parent_id}}{integer COLUMN_DESCRIPTION} 
+#'}
+#' @source \url{http://somewhere.important.com/}
+"hierarchy_table"
+#' @title DATASET_TITLE
+#' @description DATASET_DESCRIPTION
+#' @format A data frame with 21334 rows and 3 variables:
+#' \describe{
+#'   \item{\code{employee_num}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{year}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{perf_review_score}}{integer COLUMN_DESCRIPTION} 
+#'}
+#' @source \url{http://somewhere.important.com/}
+"performancereview_table"
+#' @title DATASET_TITLE
+#' @description DATASET_DESCRIPTION
+#' @format A data frame with 25617 rows and 5 variables:
+#' \describe{
+#'   \item{\code{employee_num}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{salary_effective_date}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{salary}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{salary_increase}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{starting_salary_flag}}{character COLUMN_DESCRIPTION} 
+#'}
+#' @source \url{http://somewhere.important.com/}
+"salaryhistory_table"
+#' @title DATASET_TITLE
+#' @description DATASET_DESCRIPTION
+#' @format A data frame with 4509 rows and 2 variables:
+#' \describe{
+#'   \item{\code{employee_num}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{recruiting_source}}{character COLUMN_DESCRIPTION} 
+#'}
+#' @source \url{http://somewhere.important.com/}
+"recruiting_table"

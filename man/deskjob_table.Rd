@@ -11,11 +11,17 @@
 }}
 \source{
 \url{https://github.com/harryahlas/hrsample/}
+
+\url{http://somewhere.important.com/}
 }
 \usage{
+deskjob_table
+
 deskjob_table
 }
 \description{
 Assigns a job title to each desk in fictional company.
+
+DATASET_DESCRIPTION
 }
 \keyword{datasets}
