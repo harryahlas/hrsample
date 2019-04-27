@@ -13,4 +13,5 @@ devtools::use_data(employeeinfo_table,
                    performancereview_table,
                    salaryhistory_table,
                    recruiting_table,
+                   rollup_view,
                    overwrite = T)

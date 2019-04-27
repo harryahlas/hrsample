@@ -145,3 +145,57 @@
 #'}
 #' @source \url{http://somewhere.important.com/}
 "recruiting_table"
+#' @title DATASET_TITLE
+#' @description DATASET_DESCRIPTION
+#' @format A data frame with 1233 rows and 11 variables:
+#' \describe{
+#'   \item{\code{DESK_ID_LEVEL_0}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{HRC_LEVEL_0}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{DESK_ID_LEVEL_1}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{HRC_LEVEL_1}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{DESK_ID_LEVEL_2}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{HRC_LEVEL_2}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{DESK_ID_LEVEL_3}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{HRC_LEVEL_3}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{DESK_ID_LEVEL_4}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{HRC_LEVEL_4}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{depth}}{double COLUMN_DESCRIPTION} 
+#'}
+#' @source \url{http://somewhere.important.com/}
+"rollup_view"
+#' @title DATASET_TITLE
+#' @description DATASET_DESCRIPTION
+#' @format A data frame with 1233 rows and 11 variables:
+#' \describe{
+#'   \item{\code{desk_id_level_0}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{org_level_0}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{desk_id_level_1}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{org_level_1}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{desk_id_level_2}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{org_level_2}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{desk_id_level_3}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{org_level_3}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{desk_id_level_4}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{org_level_4}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{depth}}{double COLUMN_DESCRIPTION} 
+#'}
+#' @source \url{http://somewhere.important.com/}
+"rollup_view"
+#' @title DATASET_TITLE
+#' @description DATASET_DESCRIPTION
+#' @format A data frame with 1233 rows and 11 variables:
+#' \describe{
+#'   \item{\code{lvl00_desk_id}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{lvl00_org}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{lvl01_desk_id}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{lvl01_org}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{lvl02_desk_id}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{lvl02_org}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{lvl03_desk_id}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{lvl03_org}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{lvl04_desk_id}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{lvl04_org}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{depth}}{double COLUMN_DESCRIPTION} 
+#'}
+#' @source \url{http://somewhere.important.com/}
+"rollup_view"
