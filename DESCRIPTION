@@ -10,7 +10,7 @@ Suggests:
 	RMySQL,
 	RPostgreSQL,
 	RSQLite
-License: MIT + file LICENSE
+License: CC0
 URL: https://github.com/harryahlas/hrsample 
 Encoding: UTF-8
 LazyData: true
