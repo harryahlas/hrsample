@@ -14,14 +14,38 @@
 \url{https://github.com/harryahlas/hrsample/}
 
 \url{http://somewhere.important.com/}
+
+\url{http://somewhere.important.com/}
+
+\url{http://somewhere.important.com/}
+
+\url{http://somewhere.important.com/}
+
+\url{http://somewhere.important.com/}
 }
 \usage{
+performancereview_table
+
+performancereview_table
+
+performancereview_table
+
+performancereview_table
+
 performancereview_table
 
 performancereview_table
 }
 \description{
 Annual performance reviews at fictional company.
+
+DATASET_DESCRIPTION
+
+DATASET_DESCRIPTION
+
+DATASET_DESCRIPTION
+
+DATASET_DESCRIPTION
 
 DATASET_DESCRIPTION
 }

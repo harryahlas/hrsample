@@ -13,14 +13,38 @@
 \url{https://github.com/harryahlas/hrsample/}
 
 \url{http://somewhere.important.com/}
+
+\url{http://somewhere.important.com/}
+
+\url{http://somewhere.important.com/}
+
+\url{http://somewhere.important.com/}
+
+\url{http://somewhere.important.com/}
 }
 \usage{
+deskjob_table
+
+deskjob_table
+
+deskjob_table
+
+deskjob_table
+
 deskjob_table
 
 deskjob_table
 }
 \description{
 Assigns a job title to each desk in fictional company.
+
+DATASET_DESCRIPTION
+
+DATASET_DESCRIPTION
+
+DATASET_DESCRIPTION
+
+DATASET_DESCRIPTION
 
 DATASET_DESCRIPTION
 }

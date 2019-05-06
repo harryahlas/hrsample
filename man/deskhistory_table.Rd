@@ -17,14 +17,38 @@
 \url{https://github.com/harryahlas/hrsample/}
 
 \url{http://somewhere.important.com/}
+
+\url{http://somewhere.important.com/}
+
+\url{http://somewhere.important.com/}
+
+\url{http://somewhere.important.com/}
+
+\url{http://somewhere.important.com/}
 }
 \usage{
+deskhistory_table
+
+deskhistory_table
+
+deskhistory_table
+
+deskhistory_table
+
 deskhistory_table
 
 deskhistory_table
 }
 \description{
 History of employees in each position at fictional company.
+
+DATASET_DESCRIPTION
+
+DATASET_DESCRIPTION
+
+DATASET_DESCRIPTION
+
+DATASET_DESCRIPTION
 
 DATASET_DESCRIPTION
 }

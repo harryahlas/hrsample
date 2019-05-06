@@ -14,14 +14,38 @@
 \url{https://github.com/harryahlas/hrsample/}
 
 \url{http://somewhere.important.com/}
+
+\url{http://somewhere.important.com/}
+
+\url{http://somewhere.important.com/}
+
+\url{http://somewhere.important.com/}
+
+\url{http://somewhere.important.com/}
 }
 \usage{
+hierarchy_table
+
+hierarchy_table
+
+hierarchy_table
+
+hierarchy_table
+
 hierarchy_table
 
 hierarchy_table
 }
 \description{
 Shows which position each position reports to in fictional company.
+
+DATASET_DESCRIPTION
+
+DATASET_DESCRIPTION
+
+DATASET_DESCRIPTION
+
+DATASET_DESCRIPTION
 
 DATASET_DESCRIPTION
 }

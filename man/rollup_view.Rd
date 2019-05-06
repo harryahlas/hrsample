@@ -24,6 +24,14 @@
 \url{http://somewhere.important.com/}
 
 \url{http://somewhere.important.com/}
+
+\url{http://somewhere.important.com/}
+
+\url{http://somewhere.important.com/}
+
+\url{http://somewhere.important.com/}
+
+\url{http://somewhere.important.com/}
 }
 \usage{
 rollup_view
@@ -31,8 +39,24 @@ rollup_view
 rollup_view
 
 rollup_view
+
+rollup_view
+
+rollup_view
+
+rollup_view
+
+rollup_view
 }
 \description{
+DATASET_DESCRIPTION
+
+DATASET_DESCRIPTION
+
+DATASET_DESCRIPTION
+
+DATASET_DESCRIPTION
+
 DATASET_DESCRIPTION
 
 DATASET_DESCRIPTION
