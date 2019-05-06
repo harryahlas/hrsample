@@ -12,6 +12,10 @@ These 6 tables are loaded into R when this library is called:
 - performancereview_table - a history of employee performance review scores
 - salaryhistory_table - a history of employee salaries
 - recruiting_table - recruiting sources for employees
+- contact_table - FICTITIOUS contact information
+- education_table - infomration about employee education and degrees
+- skills_table - information about employee skills and certificates
+- rollup_view - a view showing manager reporting hierarchy
 
 This is an evolving database.  Expect that data will change with time.
 
