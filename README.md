@@ -57,3 +57,4 @@ hrsampleCreateSQLServer(driver = "ODBC Driver 13 for SQL Server",
 			password = "newuser")
 ```
 
+I welcome any suggestions to enhance this database!
