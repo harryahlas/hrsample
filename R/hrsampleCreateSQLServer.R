@@ -37,6 +37,11 @@ hrsampleCreateSQLServer <- function(driver = 'ODBC Driver 13 for SQL Server',
   dbWriteTable(con, "hierarchy", hierarchy_table, overwrite = TRUE)
   dbWriteTable(con, "performancereview", performancereview_table, overwrite = TRUE)
   dbWriteTable(con, "salaryhistory", salaryhistory_table, overwrite = TRUE)
+  dbWriteTable(con, "recruiting_table", recruiting_table, overwrite = TRUE)
+  dbWriteTable(con, "rollup_view", rollup_view, overwrite = TRUE)
+  dbWriteTable(con, "contact_table", contact_table, overwrite = TRUE)
+  dbWriteTable(con, "education_table", education_table, overwrite = TRUE)
+  dbWriteTable(con, "skills_table", skills_table, overwrite = TRUE)
 
   print(dbListTables(con))
   dbDisconnect(con)

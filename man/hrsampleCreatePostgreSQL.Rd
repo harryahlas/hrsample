@@ -17,7 +17,7 @@ hrsampleCreatePostgreSQL(dbname = NULL, host = NULL, user = NULL,
 \item{password}{Password for user}
 }
 \description{
-This function loads the hrsample tables to a PostgreSQL database that the user has access to. It utilizes the RPostgreSQL package and its dependency, DBI.  The parameters are based on the DBI parameters.
+This function loads the hrsample tables to a PostgreSQL database that the user has access to. It utilizes the RPostgres package and its dependency, DBI.  The parameters are based on the DBI parameters.
 }
 \examples{
 hrsampleCreatePostgreSQL()
