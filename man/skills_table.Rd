@@ -18,6 +18,8 @@
 \url{http://somewhere.important.com/}
 
 \url{http://somewhere.important.com/}
+
+\url{http://somewhere.important.com/}
 }
 \usage{
 skills_table
@@ -27,8 +29,12 @@ skills_table
 skills_table
 
 skills_table
+
+skills_table
 }
 \description{
+DATASET_DESCRIPTION
+
 DATASET_DESCRIPTION
 
 DATASET_DESCRIPTION

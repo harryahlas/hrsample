@@ -20,6 +20,8 @@
 \url{http://somewhere.important.com/}
 
 \url{http://somewhere.important.com/}
+
+\url{http://somewhere.important.com/}
 }
 \usage{
 contact_table
@@ -29,8 +31,12 @@ contact_table
 contact_table
 
 contact_table
+
+contact_table
 }
 \description{
+DATASET_DESCRIPTION
+
 DATASET_DESCRIPTION
 
 DATASET_DESCRIPTION

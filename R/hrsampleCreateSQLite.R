@@ -10,22 +10,45 @@
 hrsampleCreateSQLite <- function(db_location) {
   library(RSQLite)
   library(hrsample)
-
   sqlite <- dbDriver("SQLite")
-
   con <- dbConnect(sqlite, db_location)
-  dbWriteTable(con, "employeeinfo", employeeinfo_table, overwrite = TRUE)
-  dbWriteTable(con, "deskhistory", deskhistory_table, overwrite = TRUE)
-  dbWriteTable(con, "deskjob", deskjob_table, overwrite = TRUE)
-  dbWriteTable(con, "hierarchy", hierarchy_table, overwrite = TRUE)
-  dbWriteTable(con, "performancereview", performancereview_table, overwrite = TRUE)
-  dbWriteTable(con, "salaryhistory", salaryhistory_table, overwrite = TRUE)
-  dbWriteTable(con, "recruiting_table", recruiting_table, overwrite = TRUE)
-  dbWriteTable(con, "rollup_view", rollup_view, overwrite = TRUE)
-  dbWriteTable(con, "contact_table", contact_table, overwrite = TRUE)
-  dbWriteTable(con, "education_table", education_table, overwrite = TRUE)
-  dbWriteTable(con, "skills_table", skills_table, overwrite = TRUE)
 
-  print(dbListTables(con))
+  convert_table_dates_to_character_and_write <- function(tablename_quoted){
+    # create copy of hrsample table, identify date columns and convert them to character, write table
+
+    tablename <- get(tablename_quoted)
+    temp_table <- tablename
+    table_date_check <- data.frame(table_date_columns = sapply(tablename, lubridate::is.Date),
+                                   column_number = c(1:ncol(tablename)))
+
+    table_date_column_numbers <- table_date_check$column_number[table_date_check$table_date_columns == TRUE]
+
+    for (table_date_column_number in table_date_column_numbers) {
+      print(table_date_column_number)
+      temp_table[table_date_column_number] <- format(tablename[table_date_column_number], "%Y-%m-%d")
+    }
+
+    new_tablename <- gsub(pattern = "_table|_view", "", tablename_quoted) #Remove suffix
+
+    dbWriteTable(con, new_tablename, temp_table, overwrite = TRUE)
+    rm(temp_table)
+  }
+
+  hrsample_tablenames <- list(
+    "employeeinfo_table",
+    "deskhistory_table",
+    "deskjob_table",
+    "hierarchy_table",
+    "performancereview_table",
+    "salaryhistory_table",
+    "recruiting_table",
+    "rollup_view",
+    "contact_table",
+    "education_table",
+    "skills_table")
+
+  lapply(hrsample_tablenames, convert_table_dates_to_character_and_write)
+
+  rm(hrsample_tablenames)
   dbDisconnect(con)
 }

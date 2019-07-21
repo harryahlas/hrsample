@@ -25,8 +25,12 @@
 \url{http://somewhere.important.com/}
 
 \url{http://somewhere.important.com/}
+
+\url{http://somewhere.important.com/}
 }
 \usage{
+employeeinfo_table
+
 employeeinfo_table
 
 employeeinfo_table
@@ -41,6 +45,8 @@ employeeinfo_table
 }
 \description{
 Fictional information about current, former, and potential company employees
+
+DATASET_DESCRIPTION
 
 DATASET_DESCRIPTION
 
